@@ -39,7 +39,7 @@ public class PersonDemo {
 		System.out.println(person.getAge());
 		System.out.println(person.getGender());
 		
-		//by using tiString() method
+		//by using toString() method
 		System.out.println(person);
 
 		
