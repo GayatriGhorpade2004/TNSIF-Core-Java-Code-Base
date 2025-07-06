@@ -15,6 +15,8 @@ public class Executor {
         a.varProtected=11;
         a.methodProtected();
         
+        
+        
 	}
 
 }

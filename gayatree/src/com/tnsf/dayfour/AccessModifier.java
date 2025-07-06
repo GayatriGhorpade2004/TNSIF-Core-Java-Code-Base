@@ -12,7 +12,7 @@ public class AccessModifier {
 	void methodDefault()
 	{
 		System.out.println("Default Access base class");
-		System.out.println("Public variable:"+varPublic);
+		System.out.println("Public variable:"+vardefault);
 	}
 	
 	public void methodPublic()
@@ -30,7 +30,7 @@ public class AccessModifier {
 	private void methodPrivate()
 	{
 		System.out.println("Private Access base class");
-		System.out.println("Private variable:"+varPrivate);
+		System.out.println("Private variable:" +varPrivate);
 	}
 	
 	
