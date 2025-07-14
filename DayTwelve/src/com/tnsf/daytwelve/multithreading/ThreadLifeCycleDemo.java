@@ -14,7 +14,7 @@ public class ThreadLifeCycleDemo extends Thread{
 	
 	try
 	{
-		sleep(500);
+		sleep(400);
 		System.out.println("in not runnable ,thread is alive or not :"+this.isAlive());
 	}
 	catch(InterruptedException e)
