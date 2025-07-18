@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><!--external link for icons-->
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1>GAYATRI GHORPADE</h1>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://github.com/GayatriGhorpade2004" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/gayatrighorpade/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" >
+    <h2>About Me</h2>
+    <div class="about-container" >
+      <img src="assets/images/profile.jpeg" alt="Profile Picture" class="profile-pic" />
+      <div class="about-text">
+        <p >Hello! I'm <strong>Gayatri Ghorpade</strong>, a motivated Computer Engineering student from Pune, Maharashtra. I have hands-on experience with web development using HTML, CSS, JavaScript, and Django. I'm passionate about building functional and user-friendly websites and constantly improving my technical and soft skills.</p>
+        <p>I'm currently pursuing my Bachelor's degree at Dr. D.Y. Patil College of Engineering and Innovation, after completing my Diploma in Computer Engineering from Y. B. Patil Polytechnic.</p>
+        <p>I love learning and building things on the web. I got into coding because I enjoy figuring out how things work and making ideas come to life online.</p>
+        <p>I've worked on websites using HTML, CSS, JavaScript, and also explored backend development with Django during my internship. I like creating clean, simple designs that work well and are easy to use.</p>
+        <p>Outside of coding, I'm always trying to improve how I communicate and work with people — whether it’s in a team or just learning something new. I believe that being curious and open to learning is just as important as technical skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills"><h2>Skills</h2>
+    <div class="skills-container">
+    <div class="skill-category">
+      <h3><img src="assets/images/computer.png" class="icon" /> Programming languages </h3>
+      <ul>
+        <li>HTML & CSS - for building and styling websites</li>
+        <li>JavaScript - for adding interactivity</li>
+        <li>Django(Python framework) - backend development and creating web apps</li>
+        <li>Bootstrap -for responsive design</li>
+        <li><Core Java - OOP, inheritance, collections, exception handling</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3><img src="assets/images/tool.png" class="icon" /> Tools & Technologies</h3>
+      <ul>
+        <li>Git & GitHub - for version control and sharing projects</li>
+        <li>MySQL - database handling</li>
+        <li>Basic MongoDB - beginner-level experience</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3><img src="assets/images/soft.png" class="icon" /> Soft Skills</h3>
+      <ul>
+        <li>Problem-solving and logical thinking</li>
+        <li>Teamwork and communication</li>
+        <li>Time management and willingness to learn</li>
+      </ul>
+    </div>
+  </div>
+  </section>
+
+  <section id="projects"><h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Beauty Salon Website</h3>
+        <p>A dynamic website built using HTML, CSS, JavaScript, and Django. It includes an admin panel, contact form, and appointment booking system with database integration.</p>
+      </div>
+      <div class="project-card">
+        <h3>Online Shopping Console App (Java)</h3>
+        <p>A console-based Java application that mimics an online shopping system. Implemented using OOP concepts like inheritance, polymorphism, and Java collections.</p>
+        <a href="https://github.com/GayatriGhorpade2004/TNSIF-Core-Java-Code-Base/tree/master/online-shopping/TNS_JavaProject_OnlineShopping" target="_blank">GitHub Repo</a>
+      </div>
+      <div class="project-card">
+        <h3>Fake News Detection (Python)</h3>
+        <p>A machine learning project using Python and scikit-learn to detect fake news articles. It uses natural language processing (NLP) to classify news as real or fake, with a simple web interface to test results.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume"><h2>Resume</h2><a href="assets/RESUME.pdf" target="_blank">Download Resume</a>
+	</section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
